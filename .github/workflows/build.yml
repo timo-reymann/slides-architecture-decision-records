@@ -12,6 +12,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npx @marp-team/marp-cli index.md -o build/index.html
+          echo "architecture-decision-records.slides.timo-reymann.de" > build/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
