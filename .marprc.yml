@@ -2,3 +2,4 @@
 allowLocalFiles: true
 pdf: false
 html: true
+theme: theme.css
